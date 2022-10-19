@@ -628,11 +628,19 @@ summary {
 	position: relative;
 }
 
-.p-mv::after {
+.p-mv::before {
 	background-color: #222;
 	height: 100hv;
 	left: 0;
 	position: absolute;
+	top: 0;
+	width: 76.5%;
+}
+
+.p-mv::after {
+	height: 87hv;
+	position: absolute;
+	right: 0;
 	top: 0;
 	width: 75.5%;
 }

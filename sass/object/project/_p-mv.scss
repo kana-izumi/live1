@@ -2,11 +2,20 @@
     position: relative;
 }
 
-.p-mv::after {
+.p-mv::before {
     position: absolute;
     top: 0;
     left: 0;
     height: 100hv;
-    width: 75.5%;
+    width: 76.5%;
     background-color: #222;
+}
+
+.p-mv::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 87hv;
+    width: 75.5%;
+
 }
