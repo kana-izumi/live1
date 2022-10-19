@@ -1,0 +1,12 @@
+.p-mv {
+    position: relative;
+}
+
+.p-mv::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100hv;
+    width: 75.5%;
+    background-color: #222;
+}
