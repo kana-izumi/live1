@@ -9,6 +9,16 @@
 </head>
 <body <?php body_class(); ?>>
   <?php wp_body_open(); ?>
-  <header class="">
-    <p class="p-test">aaaa</p>
-  </header>
+  <header class="l-header p-header">
+    <div class="p-header__inner">
+        <div class="p-header__logo">
+            <img class="c-logo" src="<?php echo get_template_directory_uri() ?>/assets/img/common/logo.svg" alt="ロゴ">
+        </div>
+        <div class="p-hamburger__menu c-hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+</header>
