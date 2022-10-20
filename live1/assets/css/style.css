@@ -337,7 +337,7 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	background: #fff;
 	color: #333;
-	font-family: "";
+	font-family: "'Noto Sans JP', sans-serif";
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 1.6;
@@ -591,11 +591,11 @@ summary {
 	align-items: center;
 	background: #000;
 	display: flex;
-	height: 30px;
+	height: 11px;
 	justify-content: center;
 	padding: 10px;
 	position: absolute;
-	width: 30px;
+	width: 22px;
 	z-index: 999;
 }
 
@@ -612,7 +612,7 @@ summary {
 }
 
 .c-hamburger span:nth-of-type(1) {
-	top: 15px;
+	top: 24px;
 }
 
 .c-hamburger span:nth-of-type(3) {
@@ -622,6 +622,27 @@ summary {
 .c-test {
 	color: red;
 	font-size: 1.25rem;
+}
+
+.p-mv {
+	position: relative;
+}
+
+.p-mv::before {
+	background-color: #222;
+	height: 100hv;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 76.5%;
+}
+
+.p-mv::after {
+	height: 87hv;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 75.5%;
 }
 
 .p-test {
